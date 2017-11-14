@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+      <header>
+        <img src="./yelp-header.png" alt="Yelp logo and header">
+      </header>
+
+
+    <section class="container">
+      <div class="left-column">
+        <h1>Sign up for Yelp</h1>
+        <h2>Connect with great local businesses</h2>
+        <p>By signing up, you agree to Yelp’s Terms of Service and Privacy Policy.</p>
+
+        <img src="./fb.png" alt="Sign up using Facebook">
+
+        <p>Don't worry, we never post without your permission.</p>
+        <br>
+        <p>___________ OR ___________</p>
+
+        <div class="form">
+
+          <form action="http://httpbin.org/anything" method="POST">
+
+            <div class="two-fields">
+
+              <span class="left-field">
+                <label>
+                  <input type="text" name="firstName" Placeholder="First Name">
+                </label>
+              </span>
+
+              <span class="right-field">
+                <label>
+                  <input type="text" name="lastName" Placeholder="Last Name">
+                </label>
+              </span>
+            </div>
+
+            <div>
+              <label>
+                <input type="password" name="psw" Placeholder="Password">
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <h3>Is your company already in Yelp?</h3></><br>
+                <div class="fieldgroup">
+                  <input type="radio" name="yelper" value="yelper" checked>Already in Yelp
+                  <input type="radio" name="non-yelper" value="nonYelper">Not yet in Yelp<br>
+                </div>
+              </label>
+
+              <div>
+                <label>
+                  <h3>I am..</h3><br>
+                  <div class="fieldgroup">
+                    <input type="checkbox" name="entrepreneur" value="Entrepreneur" checked>an entrepreneur<br>
+                    <input type="checkbox" name="customer" value="Customer">a customer<br>
+                    <input type="checkbox" name="reviewer" value="Reviewer">a reviewer<br>
+                  </div>
+                </label>
+
+              </div>
+
+              <div class="">
+                <input type="button" onclick="alert('Thank you for signing up to Yelp!')" value="Sign up">
+              </div>
+
+            </form>
+          </div>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <img src="https://s3-media4.fl.yelpcdn.com/assets/2/www/img/1e82406ff345/signup/signup_illustration.png" alt="Drawing of a store">
+    </div>
+
+  </section>
+  </body>
+</html>
